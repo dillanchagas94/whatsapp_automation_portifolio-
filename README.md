@@ -54,3 +54,15 @@ http://127.0.0.1:5000
 . Integração com APIs de envio de Whatsapp (Z-API,ChatPro,Cloud API)
 
 . Geração de PDFs automáticos para orçamento
+
+## Autor 
+**Jonathan Chagas** 
+
+Desenvolvedor Python focado em automações e integração de APIs.
+
+GitHub: https://github.com/dillanchagas94
+
+## Badge de Aprendizado
+Este é o meu primeiro projeto de automação funcional com Flask e integração de APIs!
+
+Estou aprendendo e evoluindo para criar sistemas funcionais e inovadores.
