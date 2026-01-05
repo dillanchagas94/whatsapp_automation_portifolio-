@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Orçamento</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        input, textarea { width: 100%; padding: 10px; margin: 5px 0; }
+        button { padding: 10px 20px; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Pedido de Orçamento</h1>
+
+    {% if sucesso %}
+        <p class="success">Mensagem simulada enviada com sucesso!</p>
+    {% elif erro %}
+        <p class="error">Erro: {{ mensagem }}</p>
+    {% endif %}
+
+    <form method="POST">
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+
+        <label>Telefone:</label>
+        <input type="text" name="telefone" required>
+
+        <label>Serviço:</label>
+        <input type="text" name="servico" required>
+
+        <label>Mensagem:</label>
+        <textarea name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
